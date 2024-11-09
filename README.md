@@ -39,3 +39,15 @@ The FOS application consists of both a server and client, supporting a graphical
     cd Food-Ordering-System-RMI-DCOMS
     ```
 **Step 2 : Setting Up Java**
+
+ 1. **Install Java Development Kit (JDK) :**
+    If you haven't installed JDK, download and install the latest version from Oracle's    
+    official site.
+ 2. **Set Up JAVA_HOME Environment Variable :**
+    * Open System Properties > Environment Variables.
+    * Under "System variables," add a new variable JAVA_HOME with the path to your JDK    
+      installation.
+ 3. **Verify Installation:**
+    Run the following command to confirm Java is installed:
+    ```java -version```
+ 5. 
