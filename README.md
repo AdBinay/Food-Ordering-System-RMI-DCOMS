@@ -60,16 +60,16 @@ Follow these detailed guides for installing MySQL on Windows:
   * MySQL Installation Guide for Windows 11
 
 **Step 4: Set Up MySQL Database**
-**1. Open MySQL:**
+
+1. Open MySQL:
    * Once MySQL is installed, launch MySQL Workbench or connect via command line.
-**2. Create a Database:**
+2. Create a Database:
    * Run the following SQL command to create a new database for the Food Ordering System :
      
      ```
      CREATE DATABASE dcoms_db;
      ```
-**3.Add Tables and Data**
-
+3.Add Tables and Data
    * set up necessary tables by import the provided SQL script .
      
      ```
@@ -87,3 +87,30 @@ Follow these detailed guides for installing MySQL on Windows:
      ```
      create table order_items(id int(20) unsigned auto_increment primary key not null,order_id int(20) not null, food_id int(20) not null, quantity int(20) default 1);
      ```
+**Step 5: Connect Java to MySQL**
+Use the following tutorial for step-by-step guidance on setting up MySQL with Java:
+
+* Connecting MySQL Database in Java using Eclipse
+  ```
+  https://www.tutorialsfield.com/how-to-connect-mysql-database-in-java-using-eclipse/
+  ```
+
+1. Add MySQL Connector JAR:
+   * Download the MySQL Connector JAR from the official MySQL Connector page.
+   * Add this JAR to your project’s build path.
+2. Update Database Configuration:
+   * In your project, locate the database configuration file or settings.
+   * Replace placeholder values with your database name, username, and password :
+      ```
+      String url = "jdbc:mysql://localhost:3306/dcoms_db";
+      String user = "yourUsername";
+      String password = "yourPassword";
+      ```
+Step 6 : Run the Application
+1. Compile and Run the Server:
+ * Start the RMI server to listen for client requests.
+2. Run the Client:
+ * Open a new terminal window, navigate to the project directory, and run the client to connect to the server.
+
+
+  
