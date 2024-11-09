@@ -106,11 +106,15 @@ Use the following tutorial for step-by-step guidance on setting up MySQL with Ja
       String user = "yourUsername";
       String password = "yourPassword";
       ```
-Step 6 : Run the Application
+**Step 6 : Run the Application**
 1. Compile and Run the Server:
  * Start the RMI server to listen for client requests.
+   ![1](https://github.com/user-attachments/assets/a394bac5-4655-4aa2-ab8e-819fa145878e)
+
 2. Run the Client:
  * Open a new terminal window, navigate to the project directory, and run the client to connect to the server.
+   ![2](https://github.com/user-attachments/assets/e2539c7d-d8ec-42f3-9f9d-06a13c23fa0a)
+
 
 
   
