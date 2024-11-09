@@ -118,8 +118,8 @@ Use the following tutorial for step-by-step guidance on setting up MySQL with Ja
 2. Run the Client:
  * Open a new terminal window, navigate to the project directory, and run the client to connect to the server.
    ![2](https://github.com/user-attachments/assets/e2539c7d-d8ec-42f3-9f9d-06a13c23fa0a)
+   
+![2](https://github.com/user-attachments/assets/a0feff0c-e337-425a-932c-fe66413c6560)
+![1](https://github.com/user-attachments/assets/287d0ca9-bc7e-42d2-b41c-251fe5b251e5)
 
-
-
-  ![Screenshot 2024-11-08 083706](https://github.com/user-attachments/assets/b3614114-291d-4152-bf35-4358fe1c21dd)
 
