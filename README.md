@@ -33,8 +33,9 @@ The FOS application consists of both a server and client, supporting a graphical
     ```
     git clone https://github.com/AdBinay/Food-Ordering-System-RMI-DCOMS.git
     ```
- 4. Navigate to the project directory:
+ 3. Navigate to the project directory:
     
     ```
     cd Food-Ordering-System-RMI-DCOMS
     ```
+**Step 2 : Setting Up Java**
