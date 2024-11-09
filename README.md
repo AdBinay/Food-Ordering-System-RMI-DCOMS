@@ -29,9 +29,9 @@ The FOS application consists of both a server and client, supporting a graphical
 
  1. Open your terminal or command prompt.
  2. Clone the repository from GitHub: 
-   ```
-   git clone https://github.com/AdBinay/Food-Ordering-System-RMI-DCOMS.git
-   ```
+    ```
+    git clone https://github.com/AdBinay/Food-Ordering-System-RMI-DCOMS.git
+    ```
  3. Navigate to the project directory:
     ```
     cd Food-Ordering-System-RMI-DCOMS
