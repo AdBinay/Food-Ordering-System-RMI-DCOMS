@@ -25,6 +25,7 @@ The FOS application consists of both a server and client, supporting a graphical
 * **MySql** as External Database
 
 # Installation Instructions
+
 **Step 1 : Clone the Repository**
 
  1. Open your terminal or command prompt.
@@ -49,5 +50,22 @@ The FOS application consists of both a server and client, supporting a graphical
       installation.
  3. **Verify Installation:**
     Run the following command to confirm Java is installed:
-    ```java -version```
- 5. 
+    
+    ```
+    java -version
+    ```
+**Step 3: Install MySQL**
+
+Follow these detailed guides for installing MySQL on Windows:
+  * MySQL Installation Guide for Windows 11
+
+**Step 4: Set Up MySQL Database**
+**1. Open MySQL:**
+   * Once MySQL is installed, launch MySQL Workbench or connect via command line.
+**2. Create a Database:**
+   * Run the following SQL command to create a new database for the Food Ordering System :
+     
+     ```
+     CREATE DATABASE dcoms_db;
+       use dcoms_db; create table users(id int(20) unsigned auto_increment primary key not null, name varchar(255) not null, username varchar(255) not null, email varchar(255) null, u_password varchar(255) not null, role int(255) null); insert into users (name, username, u_password, role) values ('admin', 'admin', 'admin', 0);
+     ```
