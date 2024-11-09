@@ -25,3 +25,4 @@ The FOS application consists of both a server and client, supporting a graphical
 * **MySql** as External Database
 
 # Installation Instructions
+**Step 1: Clone the Repository**
