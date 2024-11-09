@@ -97,6 +97,7 @@ Use the following tutorial for step-by-step guidance on setting up MySQL with Ja
 
 1. Add MySQL Connector JAR:
    * Download the MySQL Connector JAR from the official MySQL Connector page.
+     https://mvnrepository.com/artifact/com.mysql/mysql-connector-j/9.1.0
    * Add this JAR to your project’s build path.
 2. Update Database Configuration:
    * In your project, locate the database configuration file or settings.
