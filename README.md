@@ -8,7 +8,7 @@ Using Java's Remote Method Invocation (RMI) for distributed technology, the syst
 McGee Restaurant previously relied on a paper-based system for order management, leading to potential billing errors, increased wait times, and data loss due to manual record-keeping. This project replaces the outdated approach with a digital Food Ordering System that allows customers to:
 
 * **Register an account** with details including First Name, Last Name, and IC/Passport number.
-  ![Screenshot 2024-11-08 083727](https://github.com/user-attachments/assets/003b2dad-5f72-4847-97a7-b07ca605973c)
+  <img src=" ![Screenshot 2024-11-08 083727](https://github.com/user-attachments/assets/003b2dad-5f72-4847-97a7-b07ca605973c)" width="200" />
 * **Securely Order Food items** from categorized menus (drinks and food items) through the system.
   ![Screenshot 2024-11-08 084003](https://github.com/user-attachments/assets/b05c39c0-e817-46e4-9ff6-fac5305dad3e)
 
