@@ -121,4 +121,5 @@ Use the following tutorial for step-by-step guidance on setting up MySQL with Ja
 
 
 
-  
+  ![Screenshot 2024-11-08 083706](https://github.com/user-attachments/assets/b3614114-291d-4152-bf35-4358fe1c21dd)
+
