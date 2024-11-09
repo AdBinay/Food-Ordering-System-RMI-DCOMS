@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="622.0" prefWidth="957.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.client.controllers.OrderController">
+   <children>
+      <Text layoutX="427.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #059ee4; -fx-font-weight: bold; -fx-font-size: 25px;" text="All Orders">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TableView fx:id="table" layoutX="100.0" layoutY="101.0" prefHeight="434.0" prefWidth="800.0">
+        <columns>
+            <TableColumn fx:id="col_timestamp" minWidth="0.0" prefWidth="190.0" text="TimeStamp" />
+          <TableColumn fx:id="col_order_id" prefWidth="100.0" text="OrderID" />
+            <TableColumn fx:id="col_customer_id" minWidth="0.0" prefWidth="100.0" text="CustomerID" />
+          <TableColumn fx:id="col_total" minWidth="0.0" prefWidth="100.0" text="Total" />
+          <TableColumn fx:id="col_address" minWidth="0.0" prefWidth="230.0" text="Address" />
+          <TableColumn fx:id="col_status" minWidth="0.0" prefWidth="100.0" text="Status" />
+        </columns>
+      </TableView>
+      
+   <Button layoutX="613.0" layoutY="555.0"  mnemonicParsing="false" onMouseClicked="#viewOrder" prefHeight="31.0" prefWidth="237.0" style="-fx-font-size: 15px; -fx-background-color: #059ee4; -fx-background-radius: 10px; -fx-text-fill: white; -fx-font-weight: bold;" text="View Selected Order">
+               <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+            </Button>
+   </children>
+</AnchorPane>

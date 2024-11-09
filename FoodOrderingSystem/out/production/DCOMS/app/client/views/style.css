@@ -1,0 +1,15 @@
+.tf_box{
+    -fx-background-color: transparent;
+    -fx-border-color: #939595;
+    -fx-border-width: 0px 0px 1px 0px;
+    -fx-prompt-text-fill: #2D2E2F;
+}
+
+.tf_box_register{
+    -fx-background-color: transparent;
+    -fx-border-color: #939595;
+    -fx-border-width: 0px 0px 1px 0px;
+    -fx-text-inner-color: white;
+    -fx-prompt-text-fill: #939595;
+}
+

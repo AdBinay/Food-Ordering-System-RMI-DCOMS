@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane fx:id="borderpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1150.0" style="-fx-border-color: #373D3F;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.client.controllers.AdminController">
+   <top>
+      <HBox prefHeight="77.0" prefWidth="204.0" style="-fx-background-color: #373D3F;" BorderPane.alignment="CENTER">
+         <children>
+            <VBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="242.0" style="-fx-background-color: #373D3F;">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <children>
+                  <Text fill="#059ee4" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold; -fx-font-family: Segoe UI;" text="Staff Dashboard">
+                     <VBox.margin>
+                        <Insets left="10.0" top="20.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Segoe UI" size="20.0" />
+                     </font></Text>
+               </children>
+            </VBox>
+            <HBox prefHeight="77.0" prefWidth="836.0">
+               <children>
+                  <ImageView fitHeight="63.0" fitWidth="50.0" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../img/fos.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="250.0" top="10.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Text fill="#059ee4" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 25px; -fx-font-weight: bold;" text="Food Order System">
+                     <HBox.margin>
+                        <Insets left="20.0" right="100.0" top="20.0" />
+                     </HBox.margin>
+                  </Text>
+               </children></HBox>
+            <fx:include source="bar.fxml" />
+         </children>
+      </HBox>
+   </top>
+   <center>
+      <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="622.0" prefWidth="957.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="468.0" fitWidth="915.0" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img/dashboard.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="20.0" top="50.0" />
+               </HBox.margin>
+            </ImageView>
+         </children></HBox>
+   </center>
+   <left>
+      <HBox minWidth="-Infinity" prefHeight="621.0" prefWidth="190.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="621.0" prefWidth="32.0" style="-fx-background-color: #48494A;">
+               <children>
+                  <ImageView fitHeight="30.0" fitWidth="24.0" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../img/orders.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets left="5.0" top="45.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <ImageView fitWidth="24.0" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../img/view_acc.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets left="5.0" top="30.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <ImageView fitWidth="24.0" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../img/add_acc.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets left="5.0" top="30.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <ImageView fitWidth="26.0" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../img/add_food.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets left="4.0" top="32.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <ImageView fitWidth="24.0" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../img/view_food.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets left="5.0" top="32.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <ImageView fitWidth="24.0" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../img/password.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets left="5.0" top="30.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <ImageView fitWidth="24.0" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../img/signout.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets left="5.0" top="250.0" />
+                     </VBox.margin>
+                  </ImageView>
+               </children>
+            </VBox>
+            <VBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="621.0" prefWidth="156.0" style="-fx-background-color: #48494A;">
+               <children>
+                  <Text fill="#aba7a7" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 18px;" text="Navigation" wrappingWidth="103.744140625">
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Button cacheShape="false" centerShape="false" focusTraversable="false" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#viewOrders" prefHeight="35.0" prefWidth="90.0" scaleShape="false" style="-fx-text-fill: #aba7a7; -fx-background-color: transparent; -fx-font-weight: bold;" text="View Orders" textFill="WHITE">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button cacheShape="false" centerShape="false" focusTraversable="false" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#viewUsers" prefHeight="39.0" prefWidth="115.0" scaleShape="false" style="-fx-text-fill: #aba7a7; -fx-background-color: transparent; -fx-font-weight: bold;" text="View Customers" textFill="WHITE">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button cacheShape="false" centerShape="false" focusTraversable="false" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#createCustomer" prefHeight="39.0" prefWidth="132.0" scaleShape="false" style="-fx-text-fill: #aba7a7; -fx-background-color: transparent; -fx-font-weight: bold;" text="Add New Customer" textFill="WHITE" VBox.vgrow="NEVER">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button cacheShape="false" centerShape="false" focusTraversable="false" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#addNewFood" prefHeight="39.0" prefWidth="76.0" scaleShape="false" style="-fx-text-fill: #aba7a7; -fx-background-color: transparent; -fx-font-weight: bold;" text="Add Food" textFill="WHITE">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button cacheShape="false" centerShape="false" focusTraversable="false" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#viewFood" prefHeight="39.0" prefWidth="104.0" scaleShape="false" style="-fx-text-fill: #aba7a7; -fx-background-color: transparent; -fx-font-weight: bold;" text="View Food List" textFill="WHITE">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button cacheShape="false" centerShape="false" focusTraversable="false" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#changePassword" prefHeight="39.0" prefWidth="124.0" scaleShape="false" style="-fx-text-fill: #aba7a7; -fx-background-color: transparent; -fx-font-weight: bold;" text="Change Password" textFill="WHITE">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onMouseClicked="#signout" prefHeight="39.0" prefWidth="69.0" scaleShape="false" style="-fx-text-fill: #aba7a7; -fx-background-color: transparent; -fx-font-weight: bold;" text="Sign Out" textFill="WHITE">
+                     <VBox.margin>
+                        <Insets top="240.0" />
+                     </VBox.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </left>
+</BorderPane>
