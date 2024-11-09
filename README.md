@@ -67,6 +67,12 @@ Follow these detailed guides for installing MySQL on Windows:
      
      ```
      CREATE DATABASE dcoms_db;
+     ```
+**3.Add Tables and Data**
+
+   * set up necessary tables by import the provided SQL script .
+     
+     ```
      use dcoms_db; create table users(id int(20) unsigned auto_increment primary key not null,      name varchar(255) not null, username varchar(255) not null, email varchar(255) null,     u_password varchar(255) not null, role int(255) null); insert into users (name, username, u_password, role) values ('admin', 'admin', 'admin', 0);
      ```
      
@@ -78,6 +84,6 @@ Follow these detailed guides for installing MySQL on Windows:
      create table orders(id int(20) unsigned auto_increment primary key not null, customer_id int(20), timestamp timestamp not null default current_timestamp on update current_timestamp, address varchar(500), status varchar(10) default 'pending');
      ```
 
-    ```
-    create table order_items(id int(20) unsigned auto_increment primary key not null,order_id int(20) not null, food_id int(20) not null, quantity int(20) default 1);
-    ```
+     ```
+     create table order_items(id int(20) unsigned auto_increment primary key not null,order_id int(20) not null, food_id int(20) not null, quantity int(20) default 1);
+     ```
