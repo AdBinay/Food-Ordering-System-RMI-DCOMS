@@ -1,4 +1,4 @@
-# Food ordering system (FOS) for McGee Restaurant
+# Food ordering system (FOS) for McGee Restaurant..
 
 This Food Ordering System (FOS) is developed to streamline the ordering process at McGee Restaurant in Sri Petaling, Malaysia. 
 Using Java's Remote Method Invocation (RMI) for distributed technology, the system enables both dine-in and take-away customers to place orders efficiently, helping reduce waiting time and manage high customer volumes.
