@@ -60,7 +60,7 @@ The FOS application consists of both a server and client, supporting a graphical
 **Step 3: Install MySQL**
 
 Follow these detailed guides for installing MySQL on Windows:
-  * MySQL Installation Guide for Windows 11
+  * MySQL Installation Guide for Windows 11 https://www.tutorialsfield.com/how-to-install-mysql-on-windows-10/
 
 **Step 4: Set Up MySQL Database**
 
